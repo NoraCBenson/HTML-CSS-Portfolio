@@ -1,0 +1,429 @@
+@font-face{
+    font-family: 'Gameplay';
+    src: url('fonts/Gameplay.ttf');
+}
+
+body{
+	width: 80%;
+	margin:auto;
+	text-align:center;
+}
+
+h1{
+	font-family: Gameplay, Arial, sans-serif;
+	font-size: 80px;
+	text-align:center;
+	background:white;
+	margin:30px 0px 30px 0px;
+	padding:20px;
+}
+
+xmp{
+	font-family: "Univers Lt Std", Arial, sans-serif;
+	font-size: 21px;
+	padding:0px;
+	margin:0px;
+	color: #222222;
+	background:white;
+	padding:13px;
+	margin:-5px 0px 0px 60px;
+}
+
+p{
+	font-family: "Univers Lt Std", Arial, sans-serif;
+	font-size: 21px;
+	padding:20px;
+	color: #222222;
+	text-align:left;
+	background:white;
+}
+
+.paragraphlink{
+	padding: 0px;
+	margin:0px;
+	font-family: "Univers Lt Std", Arial, sans-serif;
+	font-size: 21px;
+	color: #222222;
+	text-align:left;
+}	
+
+.button{	
+	font-family: Gameplay, Arial, sans-serif;
+	text-decoration:none;
+	font-size: 33px;
+	background:white;
+	padding:12px 25px;
+}
+
+.bottomheader{
+	width:370px;
+	float:left;
+}
+
+.bottomheader ul{
+	margin:20px 0px;
+	padding:10px;
+	background:white;
+}
+
+.bottomheader li{
+	display:inline;
+	list-style:none;
+	font-family: Gameplay, Arial, sans-serif;
+	font-size:24px;
+	}
+	
+.bottomheader li a{
+	text-decoration:none;
+	font-family: Gameplay, Arial, sans-serif;
+	font-size:24px;	
+}
+
+.projectnav{
+	width:330px;
+	float:right;
+}
+
+.projectnav ul{
+	background:white;
+	margin:20px 0px;
+	padding:10px;
+}
+
+.projectnav li{
+	display:block;
+	list-style:none;
+	font-family: Gameplay, Arial, sans-serif;
+	font-size:24px;
+	height:29px;
+	}
+	
+.projectnav li a{
+	text-decoration:none;
+	font-family: Gameplay, Arial, sans-serif;
+	font-size:24px;	
+}
+
+
+/*homer styling begins here*/
+
+#homer{
+	background: #ffff00;
+}
+
+#homer h1{
+	color:#ff0000;
+	border: 15px solid #ff0000;
+}
+
+#homer img{
+	display:inline-block;
+	width:100%;
+}
+
+#homer .button{
+	border: 10px solid #ff0000;
+	color:#ff0000;
+	position:relative;
+	float:left;
+	top:-400px;
+	left:-250px;
+}
+
+#homer .button:hover
+	color: #ffff00;
+}
+
+#homertext{
+	background: white;
+	text-align:left;
+	position:relative;	
+	font-size:21px;
+}
+
+#homer .bottomheader ul{
+	border: 7px solid #ff0000;
+	color:#ff0000;
+}
+
+#homer .bottomheader li a{
+	color:#ff0000;
+}
+
+#homer .bottomheader li a:hover{
+	color: #ffff00;
+}
+
+#homer .projectnav ul{
+	border: 7px solid #ff0000;
+	color:#ff0000;
+	width:250px;
+	float:right;
+}
+
+#homer .projectnav li a{
+	color:#ff0000;
+}
+
+#homer .projectnav li a:hover{
+	color: #ffff00;
+}
+
+/*sufjan styling begins here*/
+
+#sufjan{
+	background: #66ffff;
+}
+
+#sufjan h1{
+	font-size:65pt;
+	color:#0df62b;
+	border: 15px solid #0df62b;
+}
+
+#sufjantext{
+	width:438px;
+	float:right;
+	}
+	
+#sufjan .button{
+	border: 10px solid #0df62b;
+	color: #0df62b;
+	margin:40px auto;
+	position:absolute;
+	top:241%;
+	left:50%;
+	transform: translate(-50%,0%);
+}
+
+#sufjan .button:hover{
+	color: #66ffff;
+}
+
+#sufjan .bottomheader{
+	width:370px;
+	float:left;
+	position:absolute;
+	top:267%;
+	}
+
+
+#sufjan .bottomheader ul{
+	border: 7px solid #0df62b;
+	color:#0df62b;
+	display:inline-block;
+}
+
+#sufjan .bottomheader li a{
+	color:#0df62b;
+}
+
+#sufjan .bottomheader li a:hover{
+	color:#66ffff;
+}
+
+#sufjan .projectnav {
+	position:absolute;
+	top:267%;
+	left:90%;
+	transform:translate(-100%,-25%)
+}
+
+#sufjan .projectnav ul{
+	border: 7px solid #0df62b;
+	color:#0df62b;
+}
+
+#sufjan .projectnav ul li a{
+	color:#0df62b;
+}
+
+#sufjan .projectnav ul li a:hover{
+	color:#66ffff;
+}
+/*broadway styling begins here*/
+
+#broadway{
+	background:#ff00fe;	
+}
+
+#broadway h1{
+	color:#8d3dff;
+	border: 15px solid #8d3dff;
+}
+
+#broadway p{
+	width:58%;
+	float:right;
+	margin-top:0px;
+}
+#broadway .button{
+	border: 10px solid #8d3dff;
+	color: #8d3dff;
+	position:relative;
+	left:2%;
+	top:40px;
+}
+#broadway .button:hover{
+	color: #ff00fe;
+}
+
+#broadway .bottomheader{
+	position:absolute;
+	top:193%;
+	}
+
+#broadway .bottomheader ul{
+	border: 7px solid #8d3dff;
+	color:#8d3dff;
+	display:inline-block;
+}
+
+#broadway .bottomheader li a{
+	color:#8d3dff;
+}
+
+#broadway .bottomheader li a:hover{
+	color: #ff00fe;
+}
+
+#broadway .projectnav{
+	position:absolute;
+	top:193%;
+	left:90%;
+	transform: translate(-100%,-25%);
+	}
+
+#broadway .projectnav ul{
+	border: 7px solid #8d3dff;
+	color:#8d3dff;
+	display:block;
+}
+
+#broadway .projectnav li a{
+	color:#8d3dff;
+}
+
+#broadway .projectnav li a:hover{
+	color: #ff00fe;
+}
+
+/*revisionist styling begins here*/
+
+#revisionist{
+	background-color:#ff0000;
+}
+
+#revisionist h1{
+	color:#0000ff;
+	border:15px solid #0000ff;
+}
+
+#revisionisttext{
+	float:left;
+	width:45%;
+	margin:0px 20px 0px 0px;
+}
+
+#revisionist .button{
+	color:#0000ff;
+	border:10px solid #0000ff;
+	position:relative;
+	top:60px;
+}
+
+#revisionist .button:hover{
+	color:#ff0000;
+}
+
+#revisionist .bottomheader{
+	position:absolute;
+	top:193%;
+	}
+
+#revisionist .bottomheader ul{
+	border: 7px solid #0000ff;
+	color:#0000ff;
+	}
+	
+#revisionist .bottomheader ul li a{
+	color:#0000ff;
+	}
+	
+#revisionist .bottomheader li a:hover{
+	color:#ff0000;
+	}
+	
+#revisionist .projectnav{
+	position:absolute;
+	top:193%;
+	left:90%;
+	transform: translate(-100%,-25%);
+}
+
+#revisionist .projectnav ul{
+	border: 7px solid #0000ff;
+	color:#0000ff;
+}
+
+#revisionist .projectnav ul li a{
+	color:#0000ff;
+	}
+
+#revisionist .projectnav li a:hover{
+	color:#ff0000;
+	}
+	
+/*sesame styling begins here*/
+
+#sesame{
+	background:#0000ff;
+}
+
+#sesame h1{
+	color:#ff00fe;
+	border: 15px solid #ff00fe;
+}
+
+#sesametext{
+	display:block;
+}
+
+#sesame .button{
+	color:#ff00fe;
+	border:10px solid #ff00fe;
+	position:relative;
+	top:-700px;
+	left:-350px;
+}
+
+#sesame .button:hover{
+	color:#0000ff
+}
+
+#sesame .bottomheader ul{
+	border: 7px solid #ff00fe;
+	color:#ff00fe;
+	}
+	
+#sesame .bottomheader ul li a{
+	color:#ff00fe;
+	}
+	
+#sesame .bottomheader li a:hover{
+	color:#0000ff;
+	}
+
+#sesame .projectnav ul{
+	border: 7px solid #ff00fe;
+	color:#ff00fe;
+}
+
+#sesame .projectnav ul li a{
+	color:#ff00fe;
+	}
+
+#sesame .projectnav li a:hover{
+	color:#0000ff;
+	}
+

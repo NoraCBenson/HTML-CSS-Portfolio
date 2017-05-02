@@ -1,0 +1,54 @@
+@font-face{
+    font-family: 'Gameplay';
+    src: url('fonts/Gameplay.ttf');
+}
+
+body {
+	font-family: Gameplay, Arial, sans-serif;
+	text-align: center;
+		
+  /* Location of the image */
+  background-image: url(image/stars.gif);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #000000;
+}
+
+
+#welcome {
+	width:80%;
+	color: #0df62b;
+	font-size:95px;
+	margin: 15% 10% 8%;
+}
+
+#enter {
+	color:#111111;
+	background-color:white;
+	font-size: 30px;
+	padding:10px 35px;
+	border-width:10px;
+	border-style: solid;
+	border-color: #8d5cff;
+	text-decoration: none;
+}
+
+#enter:hover {
+	color:white;
+	background-color:#66ffff;
+}

@@ -1,0 +1,234 @@
+@font-face{
+    font-family: 'Gameplay';
+    src: url('fonts/Gameplay.ttf');
+}
+
+
+body{
+margin:0px;
+}
+
+h1{
+	font-family: Gameplay, Arial, sans-serif;
+	font-size: 65pt;
+	text-align:center;
+	margin: 0px;
+}
+
+p{	font-family: "Univers Lt Std", Arial, sans-serif;
+	color: #222222;
+	}
+
+/* top header styling */
+
+.topheader {
+	background: black;
+	height:10vh;
+}
+
+.topheader img{
+	margin:0px 20px;
+}
+
+.topheader nav {
+	float: right;
+	background: white;
+	margin: 15px 20px;
+	height:6vh;
+}
+
+.topheader nav ul {
+		padding:3px;
+    	margin:0px;   	
+}
+
+.topheader nav ul li{
+	list-style: none;
+	display: inline;
+	font-family: Gameplay, Arial, sans-serif;
+	font-size:30px;
+}
+
+.topheader nav a {
+    text-decoration: none;
+    font-family: Gameplay, Arial, sans-serif;
+    font-size:30px;
+    color: black;
+    padding:10px 0px;
+    margin:0px;   
+    }
+    
+.topheader nav a:hover{
+	color: #0df62b;
+}
+
+/* about section styling */
+
+
+
+#purple {
+	background-color:#8d5cff;
+	height:90vh;
+	min-width:100%;
+	
+}
+
+
+#purple h1{
+	padding:20px 0px 20px;
+}
+
+
+#about{
+	position: relative;
+	left:10%;
+	top: 10vh;
+	width: 80%;
+	height:70vh;
+	background:white;
+}
+
+#about p{
+	text-align: left;
+	float:right;
+	width:60%;
+	font-size: 16px;
+	margin-right: 7%;
+
+}
+
+#about img{
+	padding-top:15px;
+	width: 24%;
+	float: left;
+	margin-left:7%;
+}
+
+/* work section styling */
+
+#work{
+	height:100vh;
+	background:#0df62b;
+}
+
+#work h1{
+	padding: 45px 0px 40px 0px;
+	color:black;
+}
+
+.sites ul{
+	width: 60%;
+	margin: 0px auto;
+	text-align: center;
+	padding:0px;
+}
+
+.sites ul li{
+	background: white;
+	height:170px;
+	width:175px;
+	display:inline-block;
+	border: 12px solid black;
+	margin: 0px 22px 22px 0px;
+	}
+	
+.sites ul li:hover{
+	border: 12px solid #66ffff;
+}
+	
+.sites ul li a{
+	font-family: Gameplay, Arial, Sans-serif;
+	font-size:20px;
+	text-align:center;
+	list-style:none;
+	text-decoration: none;
+	position:relative;
+	top:55px;
+	color:black;
+}
+
+.sites ul li a:hover{
+	color:#66ffff;
+}
+
+#broadway{
+	margin-right:0px;}
+
+#sesame{
+	margin-right:0px;
+}
+
+/*contact section styling*/
+
+#contact{
+	background:yellow;
+	height:100vh;
+	margin:auto;
+}
+
+#contactleft{
+	width:50%;
+	height:100vh;
+	background:black;
+	color:white;
+	float:left;
+}
+
+#contact h1{
+	margin:0px;
+	padding:280px 0px 0px;
+}
+
+
+#contactright{
+	width:50%;
+	height:100vh;
+	background:white;
+	float: right;
+	}
+
+#social ul{
+	width: 60%;
+	text-align:center;
+	margin:auto;
+	padding: 150px 0px 0px 0px;
+}
+
+#social ul li{
+	display:inline-block;
+	text-align:center;
+	list-style:none;
+	float:left;
+	padding:15px;
+	}
+
+.bottomheader{
+	float: right;
+	position:relative;
+	top:60px;
+	right:20px;
+}
+
+.bottomheader ul{
+	padding:10px;
+	background:white;
+	border: 7px solid black;
+}
+
+.bottomheader li{
+	display:inline;
+	list-style:none;
+	font-family: Gameplay, Arial, sans-serif;
+	font-size:24px;
+	}
+	
+.bottomheader li a{
+	text-decoration:none;
+	font-family: Gameplay, Arial, sans-serif;
+	color: black;
+	font-size:24px;
+}
+    
+.bottomheader li a:hover{
+	color: #8d5cff;
+}
