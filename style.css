@@ -8,7 +8,7 @@ body {
 	text-align: center;
 		
   /* Location of the image */
-  background-image: url(image/stars.gif);
+  background-image: url("image/stars.gif");
   
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
