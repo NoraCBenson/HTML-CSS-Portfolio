@@ -1,0 +1,120 @@
+@font-face{
+    font-family: 'Baskerville';
+    src: url('Baskerville.ttf');
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0px 20%;
+	}
+	
+h1{
+	font-family: Baskerville; "Times New Roman", serif;
+	font-size:80px;
+	text-align: center;
+	line-height:1.1em;
+}
+
+h2{
+	font-family:Baskerville; "Times New Roman", serif;
+	font-size:40px;
+	text-align:center;
+	margin-bottom:25px;
+}
+
+h3{
+	font-family:Baskerville; "Times New Roman", serif;
+	font-size:30px;
+}
+
+#intro p{
+	margin:0px 15px 30px 15px;
+	text-align:center;
+	}
+	
+#video{
+	text-align:center;
+	margin-bottom:50px;
+	}
+p{
+	font-size: 15px;
+}
+
+#malcolm h2{
+	padding:30px 0px 0px 0px;
+	margin:0px;
+}
+
+#malcolm img{
+	float:left;
+	width:40%;
+	margin:20px 0px 20px 30px;
+	padding:0px;
+}
+
+#malcolm p{
+	float: right;
+	width:50%;
+	padding:0px 30px 0px 10px;
+	}
+	
+#grey{
+	background-color:#E5E5E5;
+	height:330px;
+	border-radius:15px;
+	}
+	
+#podcast h2{
+	margin-top:50px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}	
+
+#podcast h3{
+	padding:10px 0px 10px 0px;
+	float:left;
+	width:40%;
+}
+
+#carlos{
+	margin:0px;
+	padding:0px;
+}
+#podcast img{
+	width:40%;
+	float:left;
+}
+
+#podcast p{
+	float: right;
+	width:60%;
+}
+#podcast article{
+	padding:50px 0px;
+	height:400px;
+}
+audio{
+	width:60%;
+	float:right;
+}
+
+#fullshow p{
+	font-family:Baskerville; "Times New Roman", serif;
+	padding:100px 0px 0px;
+	height:150px;
+	width:100%;
+	text-align:center;
+	font-size: 30px;
+	}
+.link{
+	color:black;
+}
+
+.button{
+	text-decoration:none;
+	color:white;
+	font-size: 33px;
+	background:black;
+	padding:10px 30px;
+}
+	

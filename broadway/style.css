@@ -1,0 +1,59 @@
+@font-face{
+    font-family: 'Broadway';
+    src: url('fonts/Broadway.ttf');
+}
+body{
+	background-color:#111111;
+	font-family: Open Sans, Helvetica, sans-serif;
+	font-size: 16px;
+	color: white;
+	margin:0 23% 0 23%; 
+	text-align:center;}
+	
+ol{
+	list-style:none;
+	padding-bottom: 20px;
+	}
+a{
+	color:white;
+	font-size:20px;}
+
+
+h1{
+	font-family: Broadway, Helvetica;
+	font-size:80px;
+	color:#E0BF5E;
+	line-height:1em;
+	padding: 20px 0px;
+	margin: 30px 0px 15px;
+	border-width:10px;
+	border: 15px dotted #E0BF5E;
+	}
+	
+h2{ 
+	font-family:Broadway;
+	font-size: 50px; 
+	color: red;
+	}
+	
+p{
+	text-align:left;
+	}
+	
+figure{
+	text-align:center;
+}
+	
+meter{
+	width:500px;
+	height:30px;
+}
+
+meter::-webkit-meter-optimum-value {
+	background:white;
+}
+
+
+
+
+	

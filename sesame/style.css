@@ -1,0 +1,229 @@
+/*body*/
+
+body{
+	background-color:#9EE7FF;
+	color:#000;
+	font-size: 1em; /* 16px */
+	font-family: Helvetica, Arial, sans-serif;
+	line-height:1.3em;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto; 
+	width:70%;
+}
+
+/*font size*/
+
+h1{font-size:35px;}
+h2{font-size:30px;}
+
+/*font-style*/
+	h2{font-weight:600;
+	line-height:18px;
+	padding-bottom:0px;
+	}
+	
+	h3{font-weight:400;
+	line-height:18px;
+	margin-bottom:0px;
+	}
+	
+/*navigation*/
+
+.main-header{
+	background:#335BDF;
+	width:150%;
+	position:relative;
+	left:-22%;
+	top:-10px;
+	}
+
+.main-header img{
+	width: 150px;
+	height:auto;
+	padding:20px 0px 15px 30px;
+	}
+	
+.main-header nav{
+	background-color:#FD1813;
+	height: 45px;
+	font-size:25px;
+	text-align:center;
+	margin:0px auto 30px auto;
+	width:100%;
+	position:relative;
+}
+
+.main-header nav ul{
+	list-style:none;
+	margin: 0 auto;
+	line-height:1.4em;
+}
+
+.main-header nav ul li{
+	float:left;
+	display: inline;
+}
+
+.main-header nav a:link, .main-header nav a:visited{
+	color:#FFF;
+	display:inline-block;
+	height:35px;
+	padding:5px 22px;
+	text-decoration: none;
+	}
+	
+.main-header nav a:hover, .main-header nav a:active{
+	background-color:#ffe300;
+	color:#FFF;
+	}
+	
+/*INDEX PAGE STYLING*/	
+	
+/*content*/
+	
+.main-content {
+	line-height:25px;
+	border-radius:8px;
+	overflow:hidden;
+}	
+	
+.content{
+	width: 68%;
+	float: left;
+	border-radius:8px;
+}
+
+.top-content{
+	background-color:#FFF;
+	border-radius:8px;
+	float:left;
+	padding:20px;
+	margin-bottom:3%;
+	}
+	
+.top-content p img{
+	float: left;
+	padding: 5px 15px 15px 15px;
+}
+
+.bottom-content{
+	background-color:#FFF;
+	border-radius:8px;
+	float:left;
+	padding:20px;
+	margin-bottom:3%;
+}
+	
+/* sidebar */
+
+.top-sidebar{
+	width: 22%;
+	float: right;
+	border-radius:8px;
+	background-color:#FFF;
+	padding: 2% 3%;
+	margin-bottom:2%;
+	}
+
+.middle-sidebar{
+	width:22%;
+	float: right;
+	border-radius:8px;
+	background-color:#FFF;
+	padding: 2% 3%;
+	margin-bottom:2%;
+	}
+
+.bottom-sidebar{
+	width: 22%;
+	float: right;
+	border-radius:8px;
+	background-color:#FFF;
+	padding: 2% 3%;
+	margin-bottom:2%;
+	}
+
+/*MISSION PAGE STYLING*/	
+
+/*mission*/
+.mission{
+	background-color:#FFF;
+	border-radius:8px;
+	padding: 2% 4%;
+	margin-left:2%;
+	margin-bottom:5%;
+	display:block;
+}
+
+.ideas{
+	width:100%;
+	height:auto;
+}
+
+.idea1, .idea2, .idea3{
+	background-color:#F29E3A;
+	border-radius:8px;
+	padding: 2% 2%;
+	width:27%;
+	display:inline-block;
+}
+
+.idea1{
+	margin-left:0px;
+}
+.idea2{
+	margin-left:2%;
+}
+.idea3{
+	margin-left:2%;
+}
+/*people*/
+
+.people{
+	background:#ffe300;
+	width:100%;
+	border-radius:8px;
+	height:1300px;
+	margin-top:40px;
+}
+
+.people h1{
+	padding-top:35px;
+	padding-left:23px;
+	margin-bottom:30px;
+}
+
+.people h2{
+	text-align:center;
+	font-size:30px;
+	padding: 2% 2%;
+}
+
+.people img{
+	height:200px;
+	width:auto;
+	}
+
+.person1, .person2, .person3, .person4{
+	background-color: #FFF;
+	border-radius:8px;
+	width: 40%;
+	padding: 3% 3%;
+	margin:0px 0px 2% 0px;
+}
+
+.person1,.person3{
+	float:left;
+	margin-left:23px;
+	
+}
+
+.person2, .person4{
+	float:right;
+	margin-right:23px;
+}
+
+
+
+	
